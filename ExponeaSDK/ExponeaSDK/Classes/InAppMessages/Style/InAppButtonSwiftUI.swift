@@ -15,13 +15,11 @@ final class InAppButtonSwiftUIModel {
 struct InAppButtonSwiftUI: View {
 
     var config: InAppButtonConfig
-    @State var newFont: Font
     let viewModel = InAppButtonSwiftUIModel()
     @State var height: CGFloat = 0
 
     init(config: InAppButtonConfig) {
         self.config = config
-        self.newFont = Font(UIFont.fromStyle(style: config.style, size: config.size))
     }
 
     var body: some View {

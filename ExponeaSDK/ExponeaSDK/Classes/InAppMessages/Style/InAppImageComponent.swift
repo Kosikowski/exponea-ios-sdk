@@ -12,7 +12,7 @@ import Combine
 
 public struct InAppImageComponent: View {
 
-    @State var config: InAppImageComponentConfig
+    var config: InAppImageComponentConfig
     private let layoutConfig: InAppLayoutConfig
 
     public init(config: InAppImageComponentConfig, layoutConfig: InAppLayoutConfig) {

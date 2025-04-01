@@ -11,7 +11,7 @@ import SwiftUI
 
 public struct SlideInAppImageComponent: View {
 
-    @State var config: InAppImageComponentConfig
+    var config: InAppImageComponentConfig
     private let layoutConfig: InAppLayoutConfig
 
     public init(config: InAppImageComponentConfig, layoutConfig: InAppLayoutConfig) {
